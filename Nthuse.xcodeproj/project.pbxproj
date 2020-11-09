@@ -14,6 +14,12 @@
 		4FC304C9253ED46A009B2B6C /* Nthuse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FC304C7253ED46A009B2B6C /* Nthuse.xcdatamodeld */; };
 		4FC304CB253ED46D009B2B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC304CA253ED46D009B2B6C /* Assets.xcassets */; };
 		4FC304CE253ED46D009B2B6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC304CC253ED46D009B2B6C /* LaunchScreen.storyboard */; };
+		4FC304D7253EDF94009B2B6C /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC304D6253EDF94009B2B6C /* ContactsViewController.swift */; };
+		4FC304DA253EDFA1009B2B6C /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC304D9253EDFA1009B2B6C /* MessageViewController.swift */; };
+		4FC304E6253EEA87009B2B6C /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC304E5253EEA87009B2B6C /* ContactsTableViewCell.swift */; };
+		F7A43C3B2543E8140007F105 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A43C3A2543E8140007F105 /* PagingViewController.swift */; };
+		F7A43C3F2543ED330007F105 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A43C3E2543ED330007F105 /* Slide.swift */; };
+		F7A43C432543ED700007F105 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A43C422543ED700007F105 /* Slide.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		4FC304CA253ED46D009B2B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FC304CD253ED46D009B2B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FC304CF253ED46D009B2B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC304D6253EDF94009B2B6C /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		4FC304D9253EDFA1009B2B6C /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		4FC304E5253EEA87009B2B6C /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		F7A43C3A2543E8140007F105 /* PagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
+		F7A43C3E2543ED330007F105 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		F7A43C422543ED700007F105 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 		4FC304BD253ED46A009B2B6C /* Nthuse */ = {
 			isa = PBXGroup;
 			children = (
+				F7A43C3D2543ED170007F105 /* Slide */,
 				4FC304BE253ED46A009B2B6C /* AppDelegate.swift */,
 				4FC304C0253ED46A009B2B6C /* SceneDelegate.swift */,
 				4FC304C2253ED46A009B2B6C /* ViewController.swift */,
@@ -66,8 +79,21 @@
 				4FC304CC253ED46D009B2B6C /* LaunchScreen.storyboard */,
 				4FC304CF253ED46D009B2B6C /* Info.plist */,
 				4FC304C7253ED46A009B2B6C /* Nthuse.xcdatamodeld */,
+				4FC304D6253EDF94009B2B6C /* ContactsViewController.swift */,
+				4FC304D9253EDFA1009B2B6C /* MessageViewController.swift */,
+				4FC304E5253EEA87009B2B6C /* ContactsTableViewCell.swift */,
+				F7A43C3A2543E8140007F105 /* PagingViewController.swift */,
 			);
 			path = Nthuse;
+			sourceTree = "<group>";
+		};
+		F7A43C3D2543ED170007F105 /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				F7A43C3E2543ED330007F105 /* Slide.swift */,
+				F7A43C422543ED700007F105 /* Slide.xib */,
+			);
+			path = Slide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +156,7 @@
 				4FC304CE253ED46D009B2B6C /* LaunchScreen.storyboard in Resources */,
 				4FC304CB253ED46D009B2B6C /* Assets.xcassets in Resources */,
 				4FC304C6253ED46A009B2B6C /* Main.storyboard in Resources */,
+				F7A43C432543ED700007F105 /* Slide.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FC304E6253EEA87009B2B6C /* ContactsTableViewCell.swift in Sources */,
 				4FC304C3253ED46A009B2B6C /* ViewController.swift in Sources */,
+				F7A43C3B2543E8140007F105 /* PagingViewController.swift in Sources */,
 				4FC304BF253ED46A009B2B6C /* AppDelegate.swift in Sources */,
 				4FC304C9253ED46A009B2B6C /* Nthuse.xcdatamodeld in Sources */,
 				4FC304C1253ED46A009B2B6C /* SceneDelegate.swift in Sources */,
+				F7A43C3F2543ED330007F105 /* Slide.swift in Sources */,
+				4FC304DA253EDFA1009B2B6C /* MessageViewController.swift in Sources */,
+				4FC304D7253EDF94009B2B6C /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
